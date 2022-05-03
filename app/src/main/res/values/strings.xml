@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">rock-paper-scissors</string>
+    <string name="rock_paper_scissor_shoot">Rock, Paper, Scissor, Shoot!!</string>
+</resources>
