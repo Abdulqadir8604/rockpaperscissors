@@ -12,9 +12,12 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">#170A0A</item>
         <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">#170a0a</item>
     </style>
     <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_screen_background</item>
-
+        <item name="android:statusBarColor">#170A0A</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">#170a0a</item>
     </style>
 </resources>

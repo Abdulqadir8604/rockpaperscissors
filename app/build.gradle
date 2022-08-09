@@ -3,15 +3,15 @@ plugins {
 }
 
 android {
+    compileSdkVersion 30
     signingConfigs {
         debug {
-            storeFile file('D:\\AndroidStudioProjects\\keystores\\tablesgenerator.jks')
+            storeFile file('E:\\AndroidStudioProjects\\keystores\\keystore.jks')
             storePassword 'Smarty.@q8604'
             keyPassword 'Smarty.@q8604'
+            keyAlias 'key1'
         }
     }
-    compileSdkVersion 30
-    buildToolsVersion "30.0.0"
 
     defaultConfig {
         manifestPlaceholders key_rps: 123

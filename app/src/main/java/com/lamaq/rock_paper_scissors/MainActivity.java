@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             final int n = random.nextInt(3);
             com_move.setImageResource(hand[n]);
             player_move.setImageResource(R.drawable.rock);
-            if(n==0){
+            if(0 == n){
                 arrow.setImageResource(R.drawable.arrow_both);
                 arrow.startAnimation(aror);
                 result.setText("it's a Tie");
